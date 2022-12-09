@@ -8,7 +8,7 @@ def primes(number_of_primes):
     list_of_primes = [2]
     counter = 3
     while len(list_of_primes) < number_of_primes:
-        # sqrta =
+
         for i in list_of_primes:
             if counter % i == 0:
                 break
